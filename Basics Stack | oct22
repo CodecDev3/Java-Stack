@@ -9,21 +9,24 @@ class LinkedListExample {
       
       // Check whether stack is empty or not
       boolean check = s.empty();
-      System.out.println(check);
+      System.out.println(check);                        // true
       
       s.push(1);
       s.push(2);
       s.push(3);
-      System.out.println(s);
+      System.out.println(s);                            // [1, 2, 3]
                               //s = {1,2,3};  
       int a = s.pop();
-      System.out.println(a);
+      System.out.println(a);                            // 3
       
       s.push(3333);
-      System.out.println(s);
+      System.out.println(s);                            // [1, 2, 3333]
       
       check = s.empty();
-      System.out.println(check);
+      System.out.println(check);                        // false
+      
+      int aa = s.get(1);
+      System.out.println(aa);                           // 2
      
   }
 }
