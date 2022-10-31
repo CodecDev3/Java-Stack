@@ -1,5 +1,5 @@
 // Coded on 03/10/22
-
+                                                        //       LiLo           [2,8,3,7,6]               6 is L    &   2 is F
 import java.util.Stack;
 class LinkedListExample {
 
