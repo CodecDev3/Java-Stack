@@ -43,7 +43,7 @@ public class Main{
         
         for(int i=0;i<n;i++){
             int a = sc.nextInt();
-            if(a!=key && c<1){
+            if(a!=key && c<1){           // OR  if(a!=key || c!=1)
                 s1.push(a);
             }
             else if(a==key){
