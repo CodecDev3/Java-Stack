@@ -26,6 +26,8 @@ Output
 Partition of array
 */
 
+// Made using Stack
+
 import java.util.*;
 
 public class Main{
